@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row:: after {
+content: "";
+display: table;
+clear: both;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 13px;
+  width: 100vw;
+  height: 50px;
+  background-color: peachpuff;
+  z-index: 10;
+}
+
+main {
+  width: 1024px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav main {
+  padding-top: 0px;
+}
+
+nav main a {
+  text-decoration: none;
+  color: sienna;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 100px;
+  padding-right: 100px;
+  
+}
+
+nav main a:hover {
+  text-decoration: underline;
+  color: peru;
+}
+
+nav .selalukananatas {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  background-color: peachpuff;
+}
+
+nav .container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+section.pertama {
+  background-color: peachpuff;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  width: auto;
+  padding-top: 50px;
+}
+
+
+section.kedua {
+  background-color: peachpuff;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 30%;
+  width: auto;
+  padding-top: 50px;
+}
+
+section.kelima {
+  background-color: burlywood;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  width: auto;
+  padding-top: 50px;
+}
+
+section.keenam {
+  background-color: sienna;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+.btn {
+  width: 40%;
+  background: sienna;
+  border: 2px solid brown;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 4px;
+}
+
+.satu {
+  width: 512px;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  background-color: sienna;
+}
+
+
+
+.dua {
+  width: 512px;
+  height: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  background-color: peru;
+}
+
+.tiga {
+  position: left;
+  width: 512px;
+  height: 250px;
+  padding-left: 100px;
+  padding-top: 100px;
+  float: left;
+  background-color: peru;
+}
+
+
+section.a {
+  background-image: url('../image/bg.jpg');
+  background-size: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+section.b {
+  background-image: url('../image/bg1.jpg');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section.c {
+  background-image: url('../image/8.jpg');
+  background-size: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+section.d {
+ background-image: url('../image/6.jpg');
+  background-size: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+section.e {
+  background-image: url('../image/h.jpg');
+  background-size: 50%;
+  background-position: top right;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+}
+
+section.ketiga {
+  background-color: burlywood;
+  padding-bottom: 100px;
+  background-position: top left;
+  width: auto;
+  padding-top: 50px;
+}
+
+section .tengah {
+  position: absolute;
+  top: 350px;
+  margin-left: 100px;
+  width: 60%;
+  height: 500px;
+  text-align: center;
+  /*background-color: pink;*/
+}
+
+section .bawah {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  width: 40%;
+  height: 50%;
+  /*background-color: pink;*/
+}
+
+section .iso {
+  position: absolute;
+  left: 100px;
+  width: 80%;
+  height: 200px;
+  /*background-color: pink;*/
+}
+
+section .melayang {
+  position: absolute;
+  left: 100px;
+  width: 40%;
+  height: 200px;
+  /*background-color: pink;*/
+}
+
+
+/**/
+
+h1 {
+  font-size: 67px;
+  font-family: 'new century schoolbook', serif;
+  color: sienna;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: sienna;
+  padding-top: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'raleway', sans-serif;
+  color: sienna;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+  color: sienna;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+h5 {
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  color: saddlebrown;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  color: sienna;
+  padding-top: 35px;
+}
+
+h7 {
+  font-size: 67px;
+  font-family: 'new century schoolbook', serif;
+  color: sienna;
+  padding-top: 35px;
+}
+
+p {
+  font-family: 'raleway', sans-serif;
+  color: sienna;
+}
+
+
+section.satu {
+ background-color: wheat;
+  background-size: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  float: left;
+  padding-top: 
+  padding-left: 500px;
+}
+
+section.ketiga {
+ background-color: wheat;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+section.keempat {
+  background-color: cornsilk;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+}
+
+
+@media (max-width: 1024px) {
+  main {
+    width: 100vw;
+  }
+  
+  section .left, section .right {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  section .melayang {
+    top: 80%;
+    left: 10%;
+    width: 90%;
+  }
+}
